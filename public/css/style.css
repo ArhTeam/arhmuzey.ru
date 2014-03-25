@@ -7,6 +7,7 @@
 		display: block;
 		font: 16px/40px Times New Roman;
 		font-weight: bold;
+		text-align: center;
 		z-index: 1000px;
 }
 

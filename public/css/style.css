@@ -10,6 +10,7 @@
 		z-index: 1000px;
 }
 
+.middle {vertical-align: middle}
 
 /* Left main menu */
 #left-sidebar li {

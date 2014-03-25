@@ -10,7 +10,7 @@
 		z-index: 1000px;
 }
 
-.middle {vertical-align: middle}
+#middle {vertical-align: middle; }
 
 /* Left main menu */
 #left-sidebar li {
@@ -46,7 +46,8 @@
 
 /* Left 2nd menu hover */
 #left-sidebar ul li a:hover {
-		background: url(/img/left-2nd-h.png);
+		background: url(/img/left-2nd.png);
+		text-decoration: underline;
 } 
 
 

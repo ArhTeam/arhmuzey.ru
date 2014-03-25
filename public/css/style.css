@@ -7,11 +7,18 @@
 		display: block;
 		font: 16px/40px Times New Roman;
 		font-weight: bold;
-		text-align: center;
 		z-index: 1000px;
 }
 
+.teg {
+		margin: 0 auto;
+		width:90px;
+		height:180px;
+position:absolute;
+left:50%;
+top:50%;
 
+}
 
 /* Left main menu */
 #left-sidebar li {

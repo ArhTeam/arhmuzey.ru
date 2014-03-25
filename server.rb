@@ -158,6 +158,25 @@ end
 
 # Left menu - - - - - - - - - - - - - - -
 
+
+get '/smi' do
+  erb :smi, :layout => :main
+end
+get '/smi2' do
+  erb :smi2, :layout => :main
+end
+get '/smi3' do
+  erb :smi3, :layout => :main
+end
+get '/smi4' do
+  erb :smi4, :layout => :main
+end
+get '/smi5' do
+  erb :smi5, :layout => :main
+end
+
+
+
 # Medvedevo - - - - - - - - - - - - - - -
 get '/medvedevo/info' do
   erb :info_medvedevo, :layout => :main

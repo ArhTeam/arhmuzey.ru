@@ -219,7 +219,7 @@ body, html {
 #photo_12 {
 		border: 0px;
 		padding: 0px 0px 0px 0px;
-		margin: 0 auto;
+		margin:-10px -20px;
 }
 
 #dec-off {

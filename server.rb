@@ -23,6 +23,7 @@ end
 
 
 
+
 # Main - - - - - - - - - - - - - - -
 get '/' do
   erb :index, :layout => :main
@@ -151,7 +152,9 @@ end
     end
     
 # About - - - - - - - - - - - - - - - - - 
-
+get '/about' do
+  erb :about, :layout => :main
+end
 
 # Left menu - - - - - - - - - - - - - - -
 
@@ -271,7 +274,7 @@ end
   end
   #1999-2000
   get '/photo_archive/expeditions/1999-2000' do
-    erb :e1999-2000, :layout => :main
+    erb :e1999u2000, :layout => :main
   end
   #2000
   get '/photo_archive/expeditions/2000' do

@@ -24,6 +24,8 @@ end
 
 
 
+
+
 # Main - - - - - - - - - - - - - - -
 get '/' do
   erb :index, :layout => :main
@@ -33,6 +35,45 @@ end
 get '/events' do
   erb :events, :layout => :main
 end
+    get '/events/nov-1-8.07.2013' do
+      erb :nov1i8.07.2013, :layout => :main
+    end
+    get '/events/nov-08.05.2013' do
+      erb :nov08.05.2013, :layout => :main
+    end
+    get '/events/nov-08.05.2013-1' do
+      erb :nov08.05.2013-1, :layout => :main
+    end
+    get '/events/nov-08.06.2012' do
+      erb :nov08.06.2012, :layout => :main
+    end
+    get '/events/nov-11.2012' do
+      erb :nov11.2012, :layout => :main
+    end
+    get '/events/nov-11-15.11.2013' do
+      erb :nov11i15.11.2013, :layout => :main
+    end
+    get '/events/nov-12.04.2013' do
+      erb :nov12.04.2013, :layout => :main
+    end
+    get '/events/nov-12.04.2013-1' do
+      erb :nov12.04.2013-1, :layout => :main
+    end
+    get '/events/nov-22-26.08.2013' do
+      erb :nov22i26.08.2013, :layout => :main
+    end
+    get '/events/nov-27.04.2012' do
+      erb :nov27.04.2012, :layout => :main
+    end
+    get '/events/nov-27-28.08.2013' do
+      erb :nov27i28.08.2013, :layout => :main
+    end
+    get '/events/nov-27-29.06.2013' do
+      erb :nov27i29.06.2013, :layout => :main
+    end
+    get '/events/nov-28.12.2012' do
+      erb :nov28.12.2012, :layout => :main
+    end
 
 # Union - - - - - - - - - - - - - - -
 get '/union/history' do

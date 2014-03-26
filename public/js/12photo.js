@@ -2,11 +2,10 @@ $(function()
 {
 	$('#slides').slides({
 		preload: true,
-		autoplay: true,
+		play: 5000,
+		pause: 1000,
+		hoverPause: true,
 		preloadImage: '/img/12photo/loading.gif',
-	//	play: 1,
-	//	pause: 1000,
-	//	hoverPause: false,
 		animationStart: function(){
 			$('.caption').animate({
 				bottom:-35

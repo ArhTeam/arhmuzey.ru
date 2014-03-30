@@ -75,6 +75,27 @@ end
       erb :nov28i12i2012, :layout => :main
     end
 
+
+
+    get '/events/nov-11-15.11.2013' do
+      erb :nov12i04i2013i1, :layout => :main
+    end
+    get '/events/nov-19.02.2014' do
+      erb :nov22i26i08i2013, :layout => :main
+    end
+    get '/events/nov-27.03.2014' do
+      erb :nov27i04i2012, :layout => :main
+    end
+    get '/events/nov-28.11.2013' do
+      erb :nov27i28i08i2013, :layout => :main
+    end
+    get '/events/nov-05.2013' do
+      erb :nov27i29i06i2013, :layout => :main
+    end
+    get '/events/nov-11.2013' do
+      erb :nov28i12i2012, :layout => :main
+    end
+
 # Union - - - - - - - - - - - - - - -
 get '/union/history' do
   erb :uni_history, :layout => :main

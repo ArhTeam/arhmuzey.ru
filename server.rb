@@ -78,22 +78,22 @@ end
 
 
     get '/events/nov-11-15.11.2013' do
-      erb :nov12i04i2013i1, :layout => :main
+      erb :nov11u15i11i2013, :layout => :main
     end
     get '/events/nov-19.02.2014' do
-      erb :nov22i26i08i2013, :layout => :main
+      erb :nov19i02i2014, :layout => :main
     end
     get '/events/nov-27.03.2014' do
-      erb :nov27i04i2012, :layout => :main
+      erb :nov27i03i2014, :layout => :main
     end
     get '/events/nov-28.11.2013' do
-      erb :nov27i28i08i2013, :layout => :main
+      erb :nov28i11i2013, :layout => :main
     end
     get '/events/nov-05.2013' do
-      erb :nov27i29i06i2013, :layout => :main
+      erb :nov05i2013, :layout => :main
     end
     get '/events/nov-11.2013' do
-      erb :nov28i12i2012, :layout => :main
+      erb :nov11i2013, :layout => :main
     end
 
 # Union - - - - - - - - - - - - - - -

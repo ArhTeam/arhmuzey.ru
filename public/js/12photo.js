@@ -2,7 +2,7 @@ $(function()
 {
 	$('#slides').slides({
 		preload: true,
-		play: 5000,
+		play: 1000,
 		pause: 1000,
 		hoverPause: true,
 		preloadImage: '/img/12photo/loading.gif',

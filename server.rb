@@ -35,6 +35,10 @@ end
 get '/events' do
   erb :events, :layout => :main
 end
+
+    get '/events/nov-04.04.2014' do
+      erb :nov04i04i2014, :layout => :main
+    end
     get '/events/nov-1-8.07.2013' do
       erb :nov1i8i07i2013, :layout => :main
     end

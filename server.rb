@@ -22,10 +22,6 @@ get '/tapetime' do
 end
 
 
-
-
-
-
 # Main - - - - - - - - - - - - - - -
 get '/' do
   erb :index, :layout => :main

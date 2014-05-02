@@ -254,6 +254,7 @@ hr {
 		height: 2px;
 }
 
+
 #h1 {
 		font-size: 130%;
 		font-weight: bold;
@@ -261,4 +262,39 @@ hr {
 
 #lenta {
 	 margin:-10px -20px;
+}
+
+/* Events */
+#events img{ 
+	width:225px;
+	height: 125px;
+	padding: 0px 10px 0px 0px;
+}
+
+
+
+#date {
+	font: 0.8em Times New Roman;
+	text-decoration: underline;
+}
+
+
+#topic {
+		color: blue;
+		font-weight: bold;
+		text-decoration: underline;
+		text-align: center;
+}
+
+#text {
+	font: 0.8em Times New Roman;
+}
+
+
+/* Text in events */ 
+#source {
+	text-align: right;
+	font-style: italic;
+	font: 0.8em Times New Roman;
+
 }

@@ -33,65 +33,65 @@ get '/events' do
 end
 
     get '/events/04042014' do
-      erb :nov04i04i2014, :layout => :main
+      erb :n04042014, :layout => :main
     end
-    get '/events/n19022014' do
-      erb :nov19i02i2014, :layout => :main
+    get '/events/19022014' do
+      erb :n19022014, :layout => :main
     end
-    get '/events/n27032014' do
-      erb :nov27i03i2014, :layout => :main
+    get '/events/27032014' do
+      erb :n27032014, :layout => :main
     end
-    get '/events/n28112013' do
-      erb :nov28i11i2013, :layout => :main
+    get '/events/28112013' do
+      erb :n28112013, :layout => :main
     end
-    get '/events/n11112013' do
-      erb :nov11i11i2013, :layout => :main
+    get '/events/11112013' do
+      erb :n11112013, :layout => :main
     end
-    get '/events/n15112013' do
-      erb :nov11u15i11i2013, :layout => :main
+    get '/events/15112013' do
+      erb :n15112013, :layout => :main
     end
-    get '/events/n00052013' do
-      erb :nov05i2013, :layout => :main
+    get '/events/00052013' do
+      erb :n00052013, :layout => :main
     end
-    get '/events/n00112013' do
-      erb :nov11i2013, :layout => :main
+    get '/events/00112013' do
+      erb :n00112013, :layout => :main
     end
-    get '/events/8072013' do
-      erb :nov1i8i07i2013, :layout => :main
+    get '/events/08072013' do
+      erb :n08072013, :layout => :main
     end
-    get '/events/nov28082013' do
-      erb :nov27i28i08i2013, :layout => :main
+    get '/events/28082013' do
+      erb :n28082013, :layout => :main
     end
-    get '/events/nov29062013' do
-      erb :nov27i29i06i2013, :layout => :main
+    get '/events/29062013' do
+      erb :n29062013, :layout => :main
     end
     get '/events/08052013' do
-      erb :nov08i05i2013, :layout => :main
+      erb :n08052013, :layout => :main
     end
-    get '/events/n080520130' do
-      erb :nov08i05i2013i1, :layout => :main
+    get '/events/080520130' do
+      erb :n080520130, :layout => :main
     end
-    get '/events/n12042013' do
-      erb :nov12i04i2013, :layout => :main
+    get '/events/12042013' do
+      erb :n12042013, :layout => :main
     end
-    get '/events/n120420130' do
-      erb :nov12i04i2013i1, :layout => :main
+    get '/events/120420130' do
+      erb :n120420130, :layout => :main
     end
-    get '/events/n26082013' do
-      erb :nov22i26i08i2013, :layout => :main
+    get '/events/26082013' do
+      erb :n26082013, :layout => :main
     end
-    get '/events/n08062012' do
-      erb :nov08i06i2012, :layout => :main
+    get '/events/08062012' do
+      erb :n08062012, :layout => :main
     end
-    get '/events/n00112012' do
-      erb :nov11i2012, :layout => :main
+    get '/events/00112012' do
+      erb :n00112012, :layout => :main
     end
-    get '/events/n27042012' do
-      erb :nov27i04i2012, :layout => :main
+    get '/events/27042012' do
+      erb :n27042012, :layout => :main
     end
  
-    get '/events/n28122012' do
-      erb :nov28i12i2012, :layout => :main
+    get '/events/28122012' do
+      erb :n28122012, :layout => :main
     end
 
  

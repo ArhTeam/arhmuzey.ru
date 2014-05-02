@@ -65,11 +65,11 @@ end
     get '/events/29062013' do
       erb :n29062013, :layout => :main
     end
-    get '/events/08052013' do
-      erb :n08052013, :layout => :main
+    get '/events/18042013' do
+      erb :n18042013, :layout => :main
     end
-    get '/events/080520130' do
-      erb :n080520130, :layout => :main
+    get '/events/17042013' do
+      erb :n17042013, :layout => :main
     end
     get '/events/12042013' do
       erb :n12042013, :layout => :main

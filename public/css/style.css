@@ -124,12 +124,14 @@ body, html {
 }
 
 #poster {
+	width: 1200px;
+	overflow: visible;
 	margin: 0 auto;
 	text-align: center;
 }
 
 #head-text {
-	width: 1140px;
+	width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 	color: #FFF600;

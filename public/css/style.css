@@ -215,6 +215,20 @@ body, html {
 	background: url(/img/scroll.png) repeat-y;
 }
 
+
+/* 5photo */
+.fivephoto {
+	margin: 0 auto;
+	position:relative;
+	height: 389px;
+	width: 680px;
+}
+.fivephoto img {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
 /* Decor */
 #photo_12 {
 	border: 0px;

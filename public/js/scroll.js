@@ -9,7 +9,6 @@ jQuery.extend(jQuery.fn, {
 			if(jQuery(window).scrollTop() >= 1){
 				jQuery(this).show();
 			}
-			//jQuery(this).css({'padding-right': h+'px'});
 		}
 	}
 });

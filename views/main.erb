@@ -4,35 +4,20 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Археологический музей</title>
 
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<link rel="stylesheet" type="text/css" href="/css/gallery.css">
-		<link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css">
-		<link rel="stylesheet" type="text/css" href="/css/expeditions.css">
-		<link rel="stylesheet" type="text/css" href="/css/imageright.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/gallery.css" />
+		<link rel="stylesheet" type="text/css" href="/css/expeditions.css" />
+		<link rel="stylesheet" type="text/css" href="/css/imageright.css" />
+		<link rel="stylesheet" href="/fancybox/fancybox.css" type="text/css" />
 
-		<!-- VK -->
-		<script type="text/javascript" src="//vk.com/js/api/openapi.js?110"></script>
-		<script type="text/javascript">
-  			VK.init({apiId: 4270305, onlyWidgets: true});
-		</script>
-
-		<!--Facebook 4157115 -->
-		<script>(function(d, s, id) {
-  			var js, fjs = d.getElementsByTagName(s)[0];
-  			if (d.getElementById(id)) return;
-  			js = d.createElement(s); js.id = id;
-  			js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
- 			fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-		</script>
-
-
-		<script src="/js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="/fancybox/fancybox.pack.js"></script>
+		
 		<script src="/js/menu.js"></script>
 		<script src="/js/scroll.js"></script>
 		
+		<script src="/js/events-gallery.js"></script>
 		<script src="/js/vitrines.js"></script>
-		<script src="/js/jquery.fancybox.js"></script>
 
 		<script src="/js/gallery.js"></script>
 		<script src="/js/gallery-settings.js"></script>
@@ -43,6 +28,45 @@
 		<script src="/js/image.pack.js"></script>
 		<script src="/js/imageright.js"></script>
 		<script src="/js/image-settings.js"></script>
+	
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".wiki").fancybox({
+		maxWidth	: 1000,
+		maxHeight	: 800,
+		fitToView	: false,
+		width		: '90%',
+		height		: '90%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+
+
+
+
+
+
+
+		<!-- VK -->
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?110"></script>
+		<script type="text/javascript">
+  			VK.init({apiId: 4270305, onlyWidgets: true});
+		</script>
+
+		<!--Facebook 4157115 -->
+		<script type="text/javascript">
+		(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+ 			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
 	</head>
 <body>
 <div id="poster">

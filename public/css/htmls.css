@@ -1,3 +1,7 @@
+.window {
+	width: 100%;
+	overflow: visible;
+}
 #show {
 	position: relative; 
 	float: right;

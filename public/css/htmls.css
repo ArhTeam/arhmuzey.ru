@@ -1,0 +1,24 @@
+#show {
+	position: relative; 
+	float: right;
+}
+
+.wiki {
+	position: absolute; 
+	float: left; 
+	font-size: 2em; 
+	width: 260px; 
+	text-align: center;
+}
+
+.wiki a {
+	opacity: 0.5;
+	width: 260px; 
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: #111;
+}
+.wiki a:hover {
+	opacity: 1;
+}

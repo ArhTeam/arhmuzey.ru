@@ -86,11 +86,11 @@ end
     get '/events/00112012' do
       erb :n00112012, :layout => :main
     end
-    get '/events/27042012' do
-      erb :n27042012, :layout => :main
-    end
     get '/events/28072012' do
       erb :n28072012, :layout => :main
+    end
+    get '/events/05042012' do
+      erb :n05042012, :layout => :main
     end
 
  

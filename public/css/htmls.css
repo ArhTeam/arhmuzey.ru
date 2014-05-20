@@ -11,6 +11,10 @@
 	text-align: center;
 }
 
+.wiki img {
+	width: 260px;
+}
+
 .wiki a {
 	opacity: 0.5;
 	width: 260px; 

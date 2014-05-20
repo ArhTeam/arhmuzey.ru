@@ -44,7 +44,11 @@ $(document).ready(function() {
 	});
 });
 </script>
-
+<script>
+	$('img').error(function(){
+		$(this).attr('src','http://arhmuzey.ru/broken_image.png');
+	});
+</script>
 
 
 

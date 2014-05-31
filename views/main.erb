@@ -18,17 +18,41 @@
 		
 		<script src="/js/events-gallery.js"></script>
 		<script src="/js/vitrines.js"></script>
-
+<!--
 		<script src="/js/gallery.js"></script>
 		<script src="/js/gallery-settings.js"></script>
 
 		<script src="/js/expeditions.js"></script>
 		<script src="/js/exp-settings.js"></script> 
-
+-->
 		<script src="/js/image.pack.js"></script>
 		<script src="/js/imageright.js"></script>
 		<script src="/js/image-settings.js"></script>
 		<script src="/js/broken.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">		
+$(document).ready(function() {
+	$(".fancybox-thumb").fancybox({
+		prevEffect	: 'none',
+		nextEffect	: 'none',
+		helpers	: {
+			title	: {
+				type: 'outside'
+			},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+		}
+	});
+});
+</script>
+
 
 <script type="text/javascript">
 $(document).ready(function() {

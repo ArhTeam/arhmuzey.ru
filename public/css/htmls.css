@@ -3,7 +3,7 @@
 	float: right;
 }
 
-.wiki {
+.wiki-link {
 	position: absolute; 
 	float: left; 
 	font-size: 2em; 
@@ -12,17 +12,17 @@
     color: #222;
 }
 
-.wiki img {
+.wiki-link img {
 	width: 260px;
 }
 
-.wiki a {
+.wiki-link a {
 	border: 2px solid #333;
 	opacity: 0.5;
     display: block;
     
 }
-.wiki a:hover {
+.wiki-link a:hover {
 	opacity: 1;
 }
 

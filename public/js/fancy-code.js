@@ -14,27 +14,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-	$(".wiki").fancybox({
-		padding : 0,
-		/*maxWidth	: 1000,
-		maxHeight	: 555, */
-		minWidth	: 600,
-		fitToView	: false,
-		width		: '100%',
-		height		: '100%',
-		autoSize	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none',
-		autoResize	: true,
-		helpers : {
-			overlay : {
-				closeClick : false
-			}
-		}
-	});
-});
-
-$(document).ready(function() {
 	$(".vitrines-link").fancybox({
 		padding : 0,
 		maxWidth	: 1000,
@@ -43,7 +22,7 @@ $(document).ready(function() {
 		fitToView	: false,
 		width		: '100%',
 		height		: '100%',
-		autoSize	: false,
+		autoResize	: false,
 		openEffect	: 'none',
 		closeEffect	: 'none',
 		helpers : {
@@ -51,15 +30,11 @@ $(document).ready(function() {
 				closeClick : false
 			}
 		}
-
-
-
 	});
 });
 
 $(document).ready(function() {
 	$(".vitrines").fancybox({
-		//wrapCSS    : 'fancybox-custom',
 		padding : 0,
 		closeClick : true,
 		openEffect : 'none',

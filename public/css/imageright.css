@@ -43,7 +43,7 @@
     width: 190px;
     height: 190px;
     text-align: right;
-    background: url(/img/sphere.gif) no-repeat;
+    background: url(../img/sphere.gif) no-repeat;
 }
 
 #tapetime a {
@@ -54,7 +54,7 @@
     right: -95px;
     width: 190px;
     height: 190px;
-    background:  url(/img/tapetime.jpg) no-repeat;
+    background:  url(../img/tapetime.jpg) no-repeat;
 }
 
 

@@ -1,0 +1,48 @@
+#date {
+	font: 0.8em Times New Roman;
+	text-decoration: underline;
+}
+
+#topic {
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 0px 20px;
+} 
+
+#text {
+	text-align: justify;
+	font-size: 1em;
+}
+
+#text img {
+	width: 400px;
+	float: right;
+	margin: 7px 0 7px 7px;
+}
+
+#emp {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#source {
+	text-align: right;
+	font-style: italic;
+	font-size: 0.9em;
+	padding: 0px 0px 0px 150px;
+}
+
+a.events-photo img {
+	border:3px solid #888;
+}
+
+a.events-photo:hover img {
+	border:3px solid #444;
+}
+
+p {
+	margin-top: 0.3em;
+	text-indent: 30px;
+	margin-bottom: 0.3em;
+}

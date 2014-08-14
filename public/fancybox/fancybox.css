@@ -27,11 +27,6 @@
 .fancybox-skin {
 	position: relative;
 	background: #f9f9f9;
-	color: #444;
-	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;
 }
 
 .fancybox-opened {
@@ -40,9 +35,10 @@
 
 .fancybox-opened .fancybox-skin {
 	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);			/* Тень объекта */
 	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
+
 
 .fancybox-outer, .fancybox-inner {
 	position: relative;
@@ -155,7 +151,7 @@
 .fancybox-tmp {
 	position: absolute;
 	top: -99999px;
-	left: -99999px;
+	left: -99999px;				/* ??? хз что это */
 	visibility: hidden;
 	max-width: 99999px;
 	max-height: 99999px;
@@ -245,6 +241,7 @@
 
 .fancybox-title-inside-wrap {
 	padding-top: 10px;
+
 }
 
 .fancybox-title-over-wrap {
@@ -252,9 +249,10 @@
 	bottom: 0;
 	left: 0;
 	color: #fff;
+	font-weight: bold;
 	padding: 10px;
 	background: #000;
-	background: rgba(0, 0, 0, .8);
+	background: rgba(0, 0, 0, .5);
 }
 
 /*Retina graphics!*/
@@ -284,13 +282,4 @@
 	border:3px solid #fff; 
 	width: 150px;
 	height: 100px;
-}
-
-a.events-photo:hover img{
-	border:3px solid #034F80;
-}
-
-a.fancybox-thumb:hover img {
-	border:3px solid #034F80;;
-
 }

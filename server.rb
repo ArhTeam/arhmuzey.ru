@@ -21,7 +21,6 @@ get '/tapetime' do
   erb :tapetime
 end
 
-
 # Main - - - - - - - - - - - - - - -
 get '/' do
   erb :index, :layout => :main
@@ -302,115 +301,118 @@ get '/pride' do
 end 
 
 # Multimedia - - - - - - - - - - - - -
+
+
+#Expeditions - - - - - - - - - - - -
 get '/photo_archive/expeditions' do
-  erb :pa_expeditions, :layout => :main
+  erb :pa_expeditions
 end
   #I период 1987 - - - - - - - - - - - -
   get '/photo_archive/expeditions/1987' do
-    erb :e1987, :layout => :main
+    erb :e1987, :layout => :exped
   end 
   #1988
   get '/photo_archive/expeditions/1988' do
-    erb :e1988, :layout => :main
+    erb :e1988, :layout => :exped
   end
   #1988-1990
   get '/photo_archive/expeditions/1988-1990' do
-    erb :e1988u1990, :layout => :main
+    erb :e1988u1990, :layout => :exped
   end
   #1990, 1992
   get '/photo_archive/expeditions/1990,1992' do
-    erb :e1990i1992, :layout => :main
+    erb :e1990i1992, :layout => :exped
   end
   #1990 slet
   get '/photo_archive/expeditions/s1990' do
-    erb :s1990, :layout => :main
+    erb :s1990, :layout => :exped
   end
   #1990
   get '/photo_archive/expeditions/1990' do
-    erb :e1990, :layout => :main
+    erb :e1990, :layout => :exped
   end
   #1991 slet
   get '/photo_archive/expeditions/1991' do
-    erb :s1991, :layout => :main
+    erb :s1991, :layout => :exped
   end
   #1992
   get '/photo_archive/expeditions/1992' do
-    erb :e1992, :layout => :main
+    erb :e1992, :layout => :exped
   end
   #1993-1994
   get '/photo_archive/expeditions/1993-1994' do
-    erb :e1993u1994, :layout => :main
+    erb :e1993u1994, :layout => :exped
   end
   #1995 slet
   get '/photo_archive/expeditions/s1995' do
-    erb :s1995, :layout => :main
+    erb :s1995, :layout => :exped
   end
   #1995
   get '/photo_archive/expeditions/1995' do
-    erb :e1995, :layout => :main
+    erb :e1995, :layout => :exped
   end
   #1996 slet
   get '/photo_archive/expeditions/1996' do
-    erb :s1996, :layout => :main
+    erb :s1996, :layout => :exped
   end
 
   #II период 1998 - - - - - - - - - -
   get '/photo_archive/expeditions/1998' do
-    erb :e1998, :layout => :main
+    erb :e1998, :layout => :exped
   end
   #1999-2000
   get '/photo_archive/expeditions/1999-2000' do
-    erb :e1999u2000, :layout => :main
+    erb :e1999u2000, :layout => :exped
   end
   #2000
   get '/photo_archive/expeditions/2000' do
-    erb :e2000, :layout => :main
+    erb :e2000, :layout => :exped
   end
   #2001
   get '/photo_archive/expeditions/2001' do
-    erb :e2001, :layout => :main
+    erb :e2001, :layout => :exped
   end
   #2002
   get '/photo_archive/expeditions/2002' do
-    erb :e2002, :layout => :main
+    erb :e2002, :layout => :exped
   end
   #2003
   get '/photo_archive/expeditions/2003' do
-    erb :e2003, :layout => :main
+    erb :e2003, :layout => :exped
   end
 
   #III период 2004 - - - - - - - - - -
   get '/photo_archive/expeditions/2004' do
-    erb :e2004, :layout => :main
+    erb :e2004, :layout => :exped
   end
   #2005
   get '/photo_archive/expeditions/2005' do
-    erb :e2005, :layout => :main
+    erb :e2005, :layout => :exped
   end
   #2006
   get '/photo_archive/expeditions/2006' do
-    erb :e2006, :layout => :main
+    erb :e2006, :layout => :exped
   end
   #2007
   get '/photo_archive/expeditions/2007' do
-    erb :e2007, :layout => :main
+    erb :e2007, :layout => :exped
   end
   #2008
   get '/photo_archive/expeditions/2008' do
-    erb :e2008, :layout => :main
+    erb :e2008, :layout => :exped
   end
   #2011
   get '/photo_archive/expeditions/2011' do
-    erb :e2011, :layout => :main
+    erb :e2011, :layout => :exped
   end
 
   #IV период 2012
   get '/photo_archive/expeditions/2012' do
-    erb :e2012, :layout => :main
+    erb :e2012, :layout => :exped
   end
   #2013
   get '/photo_archive/expeditions/2013' do
-    erb :e2013, :layout => :main
+    erb :e2013, :layout => :exped
   end
 
 

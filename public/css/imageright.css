@@ -1,47 +1,60 @@
-.ImageMenu,
-.ImageMenu ul {
-	display: block;
-	position:relative;
-	list-style: none;
-	margin: 0 auto;
-	padding: 0;
-	width:190px;
-	height:190px;
-}
-.ImageMenu ul li {
-	display: inline-block;
-	float: left;
-	width: 95px; /*указывает на сколько будет открыто изображение изначально*/
-}
-.ImageMenu ul li a {
-	display:block;
-    text-decoration: none;
-	background:#FFF;
-	cursor:pointer;
-	height: 190px; /*соответствует высоте изображения*/
-	padding: 0;
-	width: 100%;
+#imageright {
+    width: 190px;
+    height: 190px;
+    overflow:hidden;
+    
 }
 
-.ImageMenu ul li span {
-        display: none;
+#sphere span, #tapetime span {
         position: absolute;
         top: 130px;
-        background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
-        background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
         color: #FFF;
         font: normal bold 14px Arial;
 		text-align: left;
         padding: 5px 5px;
-		white-space: nowrap;
-        width: 100px;
+		white-space: nowrap; 
 }
-.ImageMenu ul li#sphere a {
-	background: url(/img/sphere.gif) no-repeat; 
+#tapetime span {
+        left:0px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+        background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+        background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
 }
-.ImageMenu ul li#tapetime a {
-	background: url(/img/tapetime.jpg) no-repeat;
+
+#sphere span {
+        right:0px;
+    background: -moz-linear-gradient(right,  rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+        background: -o-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+        background: -ms-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
 }
+
+
+#sphere a{
+    position: relative;
+    display: block; 
+    cursor:pointer;
+    float: left;
+    top: 0px;
+    left: -95px;
+    width: 190px;
+    height: 190px;
+    text-align: right;
+    background: url(/img/sphere.gif) no-repeat;
+}
+
+#tapetime a {
+    position: relative;
+    display: block; 
+    cursor:pointer;
+    top: 0px;
+    right: -95px;
+    width: 190px;
+    height: 190px;
+    background:  url(/img/tapetime.jpg) no-repeat;
+}
+
+

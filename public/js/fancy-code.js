@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 $(document).ready(function() {
 	$(".vitrines-link").fancybox({
-		padding : 0,
+		padding : 0,	
 		maxWidth	: 1000,
 		maxHeight	: 555,
 		minWidth	: 600,

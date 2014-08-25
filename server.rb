@@ -30,8 +30,6 @@ end
 get '/events' do
   erb :events, :layout => :main
 end
-
-
     get '/events/17052014' do
       erb :n17052014, :layout => :main
     end
@@ -105,37 +103,22 @@ end
 get '/union/history' do
   erb :uni_history, :layout => :main
 end
-    get '/union/history/presentation' do
-      erb :his_presentation, :layout => :main
-    end
 
 get '/union/expeditions' do
   erb :expeditions, :layout => :main
 end
-    get '/union/expeditions/presentation' do
-      erb :exp_presentation, :layout => :main
-    end
 
 get '/union/slet' do
   erb :slet, :layout => :main
 end
-    get '/union/slet/presentation' do
-      erb :sle_presentation, :layout => :main
-    end
 
 get '/union/competitions' do
   erb :competitions, :layout => :main
 end
-    get '/union/competitions/presentation' do
-      erb :com_presentation, :layout => :main
-    end
 
 get '/union/creation' do
   erb :creation, :layout => :main
 end
-    get '/union/creation/presentation' do
-      erb :cre_presentation, :layout => :main
-    end
 
 # Museum - - - - - - - - - - - - - - -
 get '/museum/history' do
@@ -156,14 +139,6 @@ end
 
 get '/museum/results' do
   erb :results, :layout => :main
-end
-
-get '/museum/docs' do
-  erb :docs, :layout => :main
-end
-
-get '/museum/presentation' do
-  erb :mus_presentation, :layout => :main
 end
 
 # Guidebook - - - - - - - - - - - - - - -
@@ -224,19 +199,9 @@ get '/about' do
 end
 
 # Left menu - - - - - - - - - - - - - - -
-
-
-
-
-
-
 # Medvedevo - - - - - - - - - - - - - - -
 get '/medvedevo/info' do
   erb :info_medvedevo, :layout => :main
-end
-
-get '/medvedevo/gallery' do
-  erb :medvedevo, :layout => :main
 end
 
 # Leader - - - - - - - - - - - - - - - - 
@@ -253,7 +218,7 @@ get '/leader/system' do
 end
 
 get '/leader/presentation' do
-  erb :lea_presentation, :layout => :main
+  erb :lea_presentation, :layout => :main #!!!! обновить на fancybox
 end
 
 get '/leader/publication' do
@@ -282,17 +247,6 @@ end
 get '/smi5' do
   erb :smi5, :layout => :main
 end
-
-
-# Achievements - - - - - - - - - - - - -
-
-get '/achievements/russia' do
-  erb :russia, :layout => :main
-end
-
-get '/achievements/republic' do
-  erb :republic, :layout => :main
-end 
 
 # Pride - - - - - - - - - - - - - - - -
 

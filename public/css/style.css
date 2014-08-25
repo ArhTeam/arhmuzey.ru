@@ -151,7 +151,6 @@ body, html {
 #box {
 	margin: 0 auto;
 	width: 1140px;
-
 }
 
 #left {
@@ -159,24 +158,31 @@ body, html {
 	float: left;
 	z-index: 50;
 	position: relative;
+	display:block
 		
 }
 
 #right {
 	width: 190px;
 	float: right;
+	z-index: 50;
+	position: relative;
 }
 
 #content {
-	width: 720px;
-	margin-right: 190px;
-	margin-left: 190px;
+	margin: 0 auto;
+	width: 740px;
 	font: 1.2em Times New Roman;
 	position: relative;
 	background: url(/img/seredina.jpg);
 	text-align: justify;
-	padding: 10px 20px 10px 20px; /* top/right/bottom/left */
+	padding: 10px 10px 10px 10px; /* top/right/bottom/left */
 	z-index: 50;
+}
+
+#content img {
+	padding: 0;
+	margin: 0;
 }
 
 #footer {
@@ -190,8 +196,6 @@ body, html {
 	z-index: 50;
 }
 
-
-
 /* Scroll */
 #top-link {
 	cursor: pointer;
@@ -203,6 +207,7 @@ body, html {
 	z-index: 10;
 	width: 30%;
 }
+
 #top-link a {
 	text-decoration: none;
 	display: block;
@@ -217,9 +222,6 @@ body, html {
 	background: url(/img/scroll.png) repeat-y;
 }
 
-
-
-
 /* 5photo */
 .fivephoto {
 	margin: 0 auto;
@@ -233,8 +235,6 @@ body, html {
 	left:0;
 	top:0;
 }
-
-
 
 /* Decor */
 .dec-off ul {
@@ -272,7 +272,9 @@ hr {
 	font-weight: bold;
 }
 
-
+.hidde {
+	display: hidden;
+}
 /* Events */
 #events img {
 	width: 225px;
@@ -294,14 +296,6 @@ hr {
 
 #text {
 	font-size: 0.8em;
-}
-
-/* Text in events */ 
-
-
-/* Hidden */
-.hidden {
-    display: none;
 }
 
 /* Video */

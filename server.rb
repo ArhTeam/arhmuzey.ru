@@ -30,75 +30,7 @@ end
 get '/events' do
   erb :events, :layout => :main
 end
-    get '/events/17052014' do
-      erb :n17052014, :layout => :main
-    end
-    get '/events/06052014' do
-      erb :n06052014, :layout => :main
-    end
-    get '/events/04042014' do
-      erb :n04042014, :layout => :main
-    end
-    get '/events/19022014' do
-      erb :n19022014, :layout => :main
-    end
-    get '/events/27032014' do
-      erb :n27032014, :layout => :main
-    end
-    get '/events/28112013' do
-      erb :n28112013, :layout => :main
-    end
-    get '/events/11112013' do
-      erb :n11112013, :layout => :main
-    end
-    get '/events/15112013' do
-      erb :n15112013, :layout => :main
-    end
-    get '/events/00052013' do
-      erb :n00052013, :layout => :main
-    end
-    get '/events/00112013' do
-      erb :n00112013, :layout => :main
-    end
-    get '/events/08072013' do
-      erb :n08072013, :layout => :main
-    end
-    get '/events/28082013' do
-      erb :n28082013, :layout => :main
-    end
-    get '/events/29062013' do
-      erb :n29062013, :layout => :main
-    end
-    get '/events/18042013' do
-      erb :n18042013, :layout => :main
-    end
-    get '/events/17042013' do
-      erb :n17042013, :layout => :main
-    end
-    get '/events/12042013' do
-      erb :n12042013, :layout => :main
-    end
-    get '/events/120420130' do
-      erb :n120420130, :layout => :main
-    end
-    get '/events/26082013' do
-      erb :n26082013, :layout => :main
-    end
-    get '/events/08062012' do
-      erb :n08062012, :layout => :main
-    end
-    get '/events/00112012' do
-      erb :n00112012, :layout => :main
-    end
-    get '/events/28072012' do
-      erb :n28072012, :layout => :main
-    end
-    get '/events/05042012' do
-      erb :n05042012, :layout => :main
-    end
-
- 
-
+    
 # Union - - - - - - - - - - - - - - -
 get '/union/history' do
   erb :uni_history, :layout => :main
@@ -261,7 +193,7 @@ end
 get '/photo_archive/expeditions' do
   erb :pa_expeditions
 end
-  #I период 1987 - - - - - - - - - - - -
+#I период 1987 - - - - - - - - - - - -
   get '/photo_archive/expeditions/1987' do
     erb :e1987, :layout => :exped
   end 
@@ -286,7 +218,7 @@ end
     erb :e1990, :layout => :exped
   end
   #1991 slet
-  get '/photo_archive/expeditions/1991' do
+  get '/photo_archive/expeditions/s1991' do
     erb :s1991, :layout => :exped
   end
   #1992
@@ -310,7 +242,7 @@ end
     erb :s1996, :layout => :exped
   end
 
-  #II период 1998 - - - - - - - - - -
+#II период 1998 - - - - - - - - - -
   get '/photo_archive/expeditions/1998' do
     erb :e1998, :layout => :exped
   end
@@ -335,7 +267,7 @@ end
     erb :e2003, :layout => :exped
   end
 
-  #III период 2004 - - - - - - - - - -
+#III период 2004 - - - - - - - - - -
   get '/photo_archive/expeditions/2004' do
     erb :e2004, :layout => :exped
   end
@@ -360,7 +292,7 @@ end
     erb :e2011, :layout => :exped
   end
 
-  #IV период 2012
+#IV период 2012
   get '/photo_archive/expeditions/2012' do
     erb :e2012, :layout => :exped
   end
@@ -368,7 +300,6 @@ end
   get '/photo_archive/expeditions/2013' do
     erb :e2013, :layout => :exped
   end
-
 
 get '/photo_archive/competitions' do
   erb :pa_competitions, :layout => :main

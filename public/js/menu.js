@@ -1,20 +1,20 @@
-var id_menu = new Array('sub_menu_1','sub_menu_2','sub_menu_5','sub_menu_8');
-startList = function allclose() {
-	for (i=0; i < id_menu.length; i++){
-	document.getElementById(id_menu[i]).style.display = "none";
-	}
-}
-	function openMenu(id){
-		for (i=0; i < id_menu.length; i++){
-				if (id != id_menu[i]){
-					document.getElementById(id_menu[i]).style.display = "none";
-				}
+$(document).ready(function() {
+	var sidebar_head = $('.left-sidebar li span'),
+		sidebar_body = $('.left-sidebar li .sub-menu');
+	sidebar_head.on('click', function(event) {
+		// Скрывает открытый раздел по повторному клику
+		event.preventDefault();
+		if ($(this).attr('class') == 'active'){
+			sidebar_body.slideUp('normal')
+			$(this).removeClass('active');
+			return false;
 		}
-				if (document.getElementById(id).style.display == "block"){
-						document.getElementById(id).style.display = "none";
-				}
-				else{
-						document.getElementById(id).style.display = "block";
-				}
-	}
-window.onload=startList;
+		// Открывает следующий, скрывая открытый
+		if ($(this).attr('class') != 'active'){
+			sidebar_body.slideUp('normal');
+			$(this).next().stop(true,true).slideToggle('normal');
+			sidebar_head.removeClass('active');
+			$(this).addClass('active');
+		}
+	});
+});

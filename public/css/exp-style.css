@@ -1,10 +1,5 @@
-* {
-    margin:0;
-    padding:0;
-}
-
-/* General Demo Style */
 body {
+    margin: 0;
     background: url(../img/fon.png) repeat top left;
     font-family: 'Kelly Slab','Myriad Pro', Arial, sans-serif;
     font-size: 15px;
@@ -14,11 +9,15 @@ body {
 a {
     color: #fff;
     text-decoration: none;
-
 }
 
-h3 a:hover {
-    text-decoration: underline;
+.exp-subtitle{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
 }
 
 .container {
@@ -41,15 +40,6 @@ h3 a:hover {
     clear: both;
 }
 
-h2.exp-subtitle{
-    padding: 10px 10px 10px;
-    font-size: 52px;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.8);
-	position: relative;
-	text-align: center;
-}
-
 .exp-container{
     width: 100%;
     position: relative;
@@ -57,14 +47,6 @@ h2.exp-subtitle{
     float: left;
 	overflow: hidden;
     padding-bottom: 100px;
-}
-
-.exp-container h2{
-    font-size: 40px;
-    text-transform: uppercase;
-    color: rgba(78,84,123,0.2);
-	text-shadow: 0px 1px 1px #fff;
-	padding: 20px 0px;
 }
 
 .exp-container:before{
@@ -83,7 +65,6 @@ h2.exp-subtitle{
     clear: both;
     float: left;
     position: relative;
-    padding: 30px 0;
 }
 
 .exp-left, .exp-right{
@@ -104,7 +85,7 @@ h2.exp-subtitle{
 
 .exp-img {
 	width: 350px;
-	height: 150px;
+	height: 250px;
 }
 
 .exp-img-deco:before{
@@ -112,7 +93,7 @@ h2.exp-subtitle{
 	height: 0px;
 	border-bottom: 5px dotted rgba(255,255,255, 0.5);
 	position: absolute;
-	top: 75%;
+	top: 48%;
 	content: '';
 	margin-top: -2px;
 }
@@ -124,7 +105,7 @@ h2.exp-subtitle{
     border-bottom: 10px solid transparent;
 	content: '';
 	position: absolute;
-	top: 75%;
+	top: 48%;
 	margin-top: -10px;
 }
 
@@ -191,4 +172,54 @@ h2.exp-subtitle{
 .exp-container h3 a:hover{
 	color: #fff;
     text-decoration: underline;
+}
+
+/* -- Gallery --- */
+.exp-gallery{
+    padding: 0px 0px 0px 20px; /* top/right/bottom/left */
+        width: 56%;
+    text-align: left;
+    position: absolute;
+}
+
+.exp-gallery img{
+    margin:5px; 
+    border:3px solid #fff; 
+    width: 150px;
+    height: 100px;
+}
+
+.exp-gallery img:hover{
+    border:3px solid #aaa; 
+}
+
+/* --- Gallery and information part --- */
+.exp-text {
+    position: fixed;
+    width: 43%;
+    right: 0;
+    padding: 0px 15px 0px 10px;
+    height: 100%;
+    background-color: rgba(26, 27, 33, 0.6);
+    border-left: 5px solid rgba(164,166,181,0.8);
+    color: rgba(255,255,255,0.8);
+    text-align: justify;
+    font-size: 15px;
+}
+
+.exp-text a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.exp-text a:hover{
+    text-decoration: underline;
+}
+
+.exp-text p {
+    margin-top: 0.3em;
+    text-indent: 30px;
+    margin-bottom: 0.3em;
 }

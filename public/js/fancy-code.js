@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".events-photo").fancybox({
+	$(".gallery-show").fancybox({
 		padding : 0,
 		transitionIn: 'elastic',
 		transitionOut: 'elastic',
@@ -13,18 +13,34 @@ $(document).ready(function(){
 	});
 });
 
+
+$(document).ready(function() {
+  $(".reviews").fancybox({
+    openEffect: 'none',
+    closeEffect: 'none',
+    padding : 0,
+    width: '100%',
+    height: '100%',
+    centerOnScroll : false,
+    helpers : {
+      overlay : {
+        closeClick : false
+      }
+    }
+  });
+});
+
+
 $(document).ready(function() {
 	$(".vitrines-link").fancybox({
-		padding : 0,	
-		maxWidth	: 1000,
-		maxHeight	: 555,
-		minWidth	: 600,
-		fitToView	: false,
-		width		: '100%',
-		height		: '100%',
-		autoResize	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none',
+		openEffect: 'none',
+        closeEffect: 'none',
+		padding : 0,
+		maxHeight: 1000,
+		autoSize: false,
+		width: 1100,
+		fitToView: false,
+		centerOnScroll : false,
 		helpers : {
 			overlay : {
 				closeClick : false
@@ -32,6 +48,8 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
 
 $(document).ready(function() {
 	$(".vitrines").fancybox({

@@ -2,36 +2,35 @@
     width: 190px;
     height: 190px;
     overflow:hidden;
-    
 }
 
 #sphere span, #tapetime span {
-        position: absolute;
-        top: 130px;
-        color: #FFF;
-        font: normal bold 14px Arial;
-		text-align: left;
-        padding: 5px 5px;
-		white-space: nowrap; 
-}
-#tapetime span {
-        left:0px;
-    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
-        background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+    position: absolute;
+    top: 150px;
+    color: #FFF;
+    font: normal bold 12px Arial;
+	text-align: left;
+    padding: 5px 5px;
+	white-space: nowrap; 
 }
 
 #sphere span {
-        right:0px;
-    background: -moz-linear-gradient(right,  rgba(0,0,0,0.65) 50%, rgba(0,0,0,0) 100%);
-        background: -webkit-gradient(linear, left top, right top, color-stop(50%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
-        background: -webkit-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -o-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
-        background: -ms-linear-gradient(right,  rgba(0,0,0,0.65) 50%,rgba(0,0,0,0) 100%);
+    right:0px;
+    background: -moz-linear-gradient(right,  rgba(0,0,0,0.65) 70%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(70%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(right,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(right,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(right,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
 }
 
+#tapetime span {
+    left:0px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 70%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(70%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 70%,rgba(0,0,0,0) 100%);
+}
 
 #sphere a{
     position: relative;
@@ -56,5 +55,3 @@
     height: 190px;
     background:  url(../img/tapetime.jpg) no-repeat;
 }
-
-

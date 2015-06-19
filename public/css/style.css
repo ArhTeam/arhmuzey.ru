@@ -13,6 +13,7 @@ body {
 
 #head-text {
 	margin: 0 auto;
+	width: 1200px;
 	color: #FFF600;
 	font-weight: bold;
 	text-align: center;
@@ -22,10 +23,84 @@ body {
 #header {
 	height: 40px;
 	z-index: 100;
-	width: 1140px;
+	width: 1142px; /* +2px т.к. бывает смещение */
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
+}
+
+/* --- Main menu --- */
+.menu {
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	float: left;
+	height: 40px;
+	list-style: none;
+}
+.section{
+	width: 190px;
+	height: 30px; /* -10 т.к. используется padding 5px*/
+	padding: 5px 0;
+	display: block;
+	color: white;
+	font-size: 25px;
+	font-style: normal;
+	font-family: Monotype Corsiva;
+	background: url(/img/mainmenu.gif);
+}
+
+.menu li ul {
+	top: 40px;
+	padding: 0;
+	display: none;
+}
+
+.menu li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+.menu li:hover ul li {
+	float: none;
+}
+
+.menu ul li {
+	width: 190px;
+	height: 40px;
+	position: relative;
+	background: url(/img/2-.jpg);
+}
+
+.menu ul li:hover {
+	background: url(/img/2--.jpg); 
+}
+
+.menu ul li a {
+	font: 17px;
+	color: #FF7F50;
+	line-height: 40px;
+}
+
+.menu ul li a:hover {
+	color: #eee;
+}
+
+.menu ul ul {
+	top: 0;
+	right: 190px;
+	display: block;
+	position: relative;
+}
+
+.menu li:hover ul ul {
+	display: none;
+}
+
+.menu ul li:hover ul {
+	display: block;
 }
 
 #box {
@@ -176,79 +251,7 @@ body {
 	background: url(/img/left-2nd.png);
 } 
 
-/* --- Main menu --- */
-.menu {
-	padding: 0;
-	width: 100%;
-	margin: 0 auto;
-	list-style-type: none;
-}
 
-.menu li {
-	float: left;
-	height: 40px;
-	list-style: none;
-}
-
-.menu li a {
-	display: block;
-	text-decoration: none;
-}
-
-.menu li a:hover {
-
-}
-
-.menu li ul {
-	top: 40px;
-	padding: 0;
-	display: none;
-}
-
-.menu li:hover ul {
-	display: block;
-	position: absolute;
-}
-
-.menu li:hover ul li {
-	float: none;
-}
-
-.menu ul li {
-	width: 190px;
-	height: 40px;
-	position: relative;
-	background: url(/img/2-.jpg);
-}
-
-.menu ul li:hover {
-	background: url(/img/2--.jpg); 
-}
-
-.menu ul li a {
-	font: 17px;
-	color: #FF7F50;
-	line-height: 40px;
-}
-
-.menu ul li a:hover {
-	color: #eee;
-}
-
-.menu ul ul {
-	top: 0;
-	right: 190px;
-	display: block;
-	position: relative;
-}
-
-.menu li:hover ul ul {
-	display: none;
-}
-
-.menu ul li:hover ul {
-	display: block;
-}
 
 /* --- 5photo --- */
 .fivephoto {

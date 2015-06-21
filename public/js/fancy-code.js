@@ -13,24 +13,6 @@ $(document).ready(function(){
 	});
 });
 
-
-$(document).ready(function() {
-  $(".reviews").fancybox({
-    openEffect: 'none',
-    closeEffect: 'none',
-    padding : 0,
-    width: '100%',
-    height: '100%',
-    centerOnScroll : false,
-    helpers : {
-      overlay : {
-        closeClick : false
-      }
-    }
-  });
-});
-
-
 $(document).ready(function() {
 	$(".vitrines-link").fancybox({
 		openEffect: 'none',
@@ -49,14 +31,11 @@ $(document).ready(function() {
 	});
 });
 
-
-
 $(document).ready(function() {
 	$(".vitrines").fancybox({
 		padding : 0,
 		closeClick : true,
 		openEffect : 'none',
-		
 	});
 });
 

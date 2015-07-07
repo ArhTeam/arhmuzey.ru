@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8" />
 		<title>Археологический музей</title>
-		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="/fancybox/fancybox.css" />
-		<link rel="stylesheet" type="text/css" href="/css/imageright.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-		<script type="text/javascript" src="/fancybox/fancybox.pack.js"></script>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/fancybox/fancybox.css" />
+		<link rel="stylesheet" href="/css/imageright.css" />
+		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script src="/fancybox/fancybox.pack.js"></script>
 		<script src="/js/fancy-code.js"></script>
 		<script src="/js/imageright.js"></script>
 		<script src="/js/scroll.js"></script>
 		<script src="/js/menu.js"></script>
 	</head>
 <body>
-	<div id="poster">
+	<header class="poster">
 		<a href="/union/history">
 			<img src="/img/poster1.png" width="289" height="284" title="Переход в раздел Объединение"/>
 		</a>
@@ -24,83 +24,122 @@
 		<a href="/reviews">
 			<img src="/img/poster3.png" width="409" height="284" title="Переход в Книгу отзывов"/>
 		</a>
-	</div>
+	</header>
 	
 	<div id="head-text">
-		<font>МЕДВЕДЕВСКИЙ ШКОЛЬНЫЙ АРХЕОЛОГИЧЕСКИЙ МУЗЕЙ</font>
+		МЕДВЕДЕВСКИЙ ШКОЛЬНЫЙ АРХЕОЛОГИЧЕСКИЙ МУЗЕЙ
 	</div>
 	
-	<div id="header">
-		<ul class="menu">
-			<li>
-				<a href="/">
-					<div class="section">Главная</div>
+	<nav class="menu">
+		<a href="/">
+			<li>Главная</li>
+		</a>
+		<a href="/events">
+			<li>События</li>
+		</a>
+		<li>
+			Объединение
+			<ul>
+				<a href="/union/history">
+					<li>Из истории</li>
 				</a>
-			</li>
-			<li>
-				<a href="/events">
-					<div class="section">События</div>
+				<a href="/union/expeditions">
+					<li>Экспедиции</li>
 				</a>
-			</li>
-			<li>
-				<div class="section">Объединение</div>
-				<ul>
-	    			<li><a href="/union/history">Из истории</a></li>
-	    			<li><a href="/union/expeditions">Экспедиции</a></li>
-	    			<li><a href="/union/slet">Слёты</a></li>
-	    			<li><a href="/union/competitions">Конкурсы</a></li>
-	    			<li><a href="/union/creation">Создание музея</a></li>
-				</ul>
-			</li>		
-			<li>
-				<div class="section">О музее</div>
-				<ul>
-	    			<li><a href="/museum/history">История создания</a></li>
-	    			<li><a href="/museum/collection">Коллекция музея</a></li>
-	    			<li><a href="/museum/concept">Концепция музея</a></li>
-	    			<li><a href="/museum/working">Деятельность музея</a></li>
-	    			<li><a href="/museum/results">Итоги работы</a></li>
-	    			<li><a class="gallery-show" rel="docs" href="http://arhmuzey.ru/docs/doc1.png">Документы</a></li>
-				</ul>
-			</li>
-			<li>
-				<div class="section">Путеводитель</div>
-				<ul>
-				  	<li><a href="/guidebook/paleontology">Палеонтология</a></li>
-	    			<li><a href="/guidebook/stone">Эпоха камня</a>
+				<a href="/union/slet">
+					<li>Слёты</li>
+				</a>
+				<a href="/union/competitions">
+					<li>Конкурсы</li>
+				</a>
+				<a href="/union/creation">
+					<li>Создание музея</li>
+				</a>
+			</ul>
+		</li>		
+		<li>
+			О музее
+			<ul>
+				<a href="/museum/history">
+					<li>История создания</li>
+				</a>
+				<a href="/museum/collection">
+					<li>Коллекция музея</li>
+				</a>
+				<a href="/museum/concept">
+					<li>Концепция музея</li>
+				</a>
+				<a href="/museum/working">
+					<li>Деятельность музея</li>
+				</a>
+				<a href="/museum/results">
+					<li>Итоги работы</li>
+				</a>
+				<a class="gallery-show" rel="docs" href="http://arhmuzey.ru/docs/doc1.png">
+					<li>Документы</li>
+				</a>
+			</ul>
+		</li>
+		<li>
+			Путеводитель
+			<ul>
+			  	<a href="/guidebook/paleontology">
+			  		<li>Палеонтология</li>
+			  	</a>
+				<a href="/guidebook/stone">
+					<li>Эпоха камня
 						<ul>
-	        				<li><a href="/guidebook/stone/paleolithic">Палеолит</a></li>
-	        				<li><a href="/guidebook/stone/mesolithic">Мезолит</a></li>
-	        				<li><a href="/guidebook/stone/neolithic">Неолит</a></li>
+	    					<a href="/guidebook/stone/paleolithic">
+	    						<li>Палеолит</li>
+	    					</a>
+	    					<a href="/guidebook/stone/mesolithic">
+	    						<li>Мезолит</li>
+	    					</a>
+	    					<a href="/guidebook/stone/neolithic">
+	    						<li>Неолит</li>
+	    					</a>
 						</ul>
 					</li>
-	    			<li><a href="/guidebook/metal">Ранний металл</a></li>
-	    			<li><a href="/guidebook/antiquity">Античность</a>
-						<ul>
-	        				<li><a href="/guidebook/antiquity/city">Античные города</a></li>
-	        				<li><a href="/guidebook/antiquity/olbia">Ольвия</a></li>
-	        				<li><a href="/guidebook/antiquity/chersonesus">Херсонес</a></li>
-						</ul>
-					</li>
-	    			<li><a href="/guidebook/mari">Марийцы XIII-XVIII вв.</a></li>
-	    			<li><a href="/guidebook/russ_russia">Русь - Россия</a>
-						<ul>
-	        				<li><a href="/guidebook/russ_russia/novgorod">Великий Новгород</a></li>
-	        				<li><a href="/guidebook/russ_russia/borodino">Бородино 1812 г.</a></li>
-	        				<li><a href="/guidebook/russ_russia/ww2">ВОВ 1941-1945 гг.</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<a href="/about">
-					<div class="section">О сайте</div>
 				</a>
-			</li>
-		</ul>
-	</div>
+				<a href="/guidebook/metal">
+					<li>Ранний металл</li>
+				</a>
+				<a href="/guidebook/antiquity">
+					<li>Античность
+						<ul>
+	    					<a href="/guidebook/antiquity/city">
+	    						<li>Античные города</li>
+	    					</a>
+	    					<a href="/guidebook/antiquity/olbia">
+	    						<li>Ольвия</li>
+	    					</a>
+	    					<a href="/guidebook/antiquity/chersonesus">
+	    						<li>Херсонес</li>
+	    					</a>
+						</ul>
+					</li>
+				</a>
+				<a href="/guidebook/mari">
+					<li>Марийцы XIII-XVIII вв.</li>
+				</a>
+				<a href="/guidebook/russ_russia">
+					<li>Русь - Россия
+						<ul>
+	    					<li><a href="/guidebook/russ_russia/novgorod">Великий Новгород</a></li>
+	    					<li><a href="/guidebook/russ_russia/borodino">Бородино 1812 г.</a></li>
+	    					<li><a href="/guidebook/russ_russia/ww2">ВОВ 1941-1945 гг.</a></li>
+						</ul>
+					</li>
+				</a>
+			</ul>
+		</li>
+		<a href="/about">
+			<li>О сайте</li>
+		</a>
+	</nav>
+
 	<div id="box">
-		<div id="left">
+		<aside id="left">
 			<ul class="left-sidebar"> 
 			    <li> 
 			        <span>Медведево</span> 
@@ -150,17 +189,17 @@
 
 				<li>
 					<a id="vk_btn" href="http://vk.com/share.php?url=http://www.arhmuzey.ru/" target="_blank">
-						<img src="/img/vk_share.png"/>
+						<img src="/img/vk_share.gif"/>
 					</a>
 				</li>
 				<li>
 					<a id="fb_btn" href="http://www.facebook.com/sharer.php?u=http://www.arhmuzey.ru/&src=sp" target="_blank">
-						<img src="/img/fb_share.png"/>
+						<img src="/img/fb_share.gif"/>
 					</a>
 				</li>
 			</ul>
-		</div>
-		<div id="right">
+		</aside>
+		<aside id="right">
 			<a href="/clock">
 				<!--<img class="arrow" src="/img/str.png"/>-->
 				<img src="/img/clock.gif" width="190" height="247"/>
@@ -174,13 +213,13 @@
 	        		<a href="/tapetime"><span>Лента времени</span></a>
 	    		</div>
 			</div>
-		</div>
+		</aside>
 	
 		<div id="content"> 
 			<%= yield %>
 		</div>
 	
-		<div id="footer">
+		<footer id="footer">
 			Сайт создан 
 			<a href="/creators">учениками трех медведевских школ</a> 
 			под руководством учителя истории 
@@ -188,7 +227,7 @@
 			<br/>Сайт создавался без использования "конструктора сайтов" 
 			<script type="text/javascript" src="http://ji.revolvermaps.com/2/4.js?i=8bovrxehw32&amp;m=0&amp;h=0&amp;c=fff600&amp;r=0" async="async">
 			</script>
-		</div>
+		</footer>
 	</div>
 	<div class="hidden">
 		<a class="gallery-show" rel="medvedevo" href="http://arhmuzey.ru/presentations/medvedevo/2.jpg"></a>

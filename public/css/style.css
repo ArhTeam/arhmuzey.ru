@@ -1,69 +1,54 @@
 body {
+	background-attachment: fixed;
+	background: url(/img/fon.jpg);
 	margin: 0;
 	padding: 0;
-	background-attachment: fixed;
-	background: url(/img/fon.png);
 }
 
-#poster {
-	width: 1200px;
-	margin: 0 auto;
+.poster {
 	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
 }
 
 #head-text {
-	margin: 0 auto;
-	width: 1200px;
 	color: #FFF600;
-	font-weight: bold;
-	text-align: center;
 	font-size: 2em;
+	font-weight: bold;
+	margin: 0 auto;	
+	text-align: center;
+	width: 1200px;
 }
 
-#header {
+/* --- Main menu --- */
+.menu {
 	height: 40px;
-	z-index: 100;
-	width: 1142px; /* +2px т.к. бывает смещение */
+	list-style-type: none;
 	margin: 0 auto;
+	padding: 0;
 	position: relative;
 	text-align: center;
+	width: 1142px; /* +2px т.к. бывает смещение */
+	z-index: 100;
 }
 
-#header a {
+.menu li {
+	background: url(/img/mainmenu.gif);
+	color: #FFF;
+	float: left;
+	width: 190px;
+	height: 40px;
+	display: block;
+	font-size: 25px;
+	list-style: none;
+    line-height: 40px;
+	font-family: Monotype Corsiva;
+	
 	transition: 0.6s;
 	-o-transition: 0.6s;
 	-ms-transition: 0.6s;
 	-moz-transition: 0.6s;
 	-webkit-transition: 0.6s;
-}
-
-/* --- Main menu --- */
-.menu {
-	padding: 0;
-	list-style-type: none;
-}
-
-.menu li {
-	float: left;
-	height: 40px;
-	list-style: none;
-}
-.section{
-	width: 190px;
-	height: 30px; /* -10 т.к. используется padding 5px*/
-	padding: 5px 0;
-	display: block;
-	color: white;
-	font-size: 25px;
-	font-style: normal;
-	font-family: Monotype Corsiva;
-	background: url(/img/mainmenu.gif);
-}
-
-.menu li ul {
-	top: 40px;
-	padding: 0;
-	display: none;
 }
 
 .menu li:hover ul {
@@ -75,25 +60,42 @@ body {
 	float: none;
 }
 
+.menu ul {
+	top: 14px;
+	padding: 0;
+	display: none;
+	color: #FF7F50;
+}
+
+.menu ul a{
+	display: block;
+	color: #FF7F50;
+	transition: 0.6s;
+	-o-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-webkit-transition: 0.6s;
+}
+
+.menu ul a:hover{
+	color: #FFF;
+}
+
 .menu ul li {
+	padding: 0 ;
 	width: 190px;
 	height: 40px;
+	color: #FF7F50;
+	font-size: 17px;
+	line-height: 40px;
 	position: relative;
+	font-family: Times New Roman;
 	background: url(/img/2-.jpg);
 }
 
 .menu ul li:hover {
+	color: #EEE;
 	background: url(/img/2--.jpg); 
-}
-
-.menu ul li a {
-	font: 17px;
-	color: #FF7F50;
-	line-height: 40px;
-}
-
-.menu ul li a:hover {
-	color: #eee;
 }
 
 .menu ul ul {
@@ -144,7 +146,7 @@ body {
 	display: block;
 	color: #A25F2A;
 	text-decoration: none;
-	background: url(/img/left-main.png);
+	background: url(/img/left-main.gif);
 }
 
 .left-sidebar span, span:hover {
@@ -152,7 +154,7 @@ body {
 }
 
 .left-sidebar a:hover, span:hover {
-	background: url(/img/left-main-h.png);
+	background: url(/img/left-main-h.gif);
 }
 
 .left-sidebar li .sub-menu {
@@ -169,12 +171,12 @@ body {
 	font-style: italic;
 	font-weight: normal;
 	text-decoration: none;
-	background: url(/img/left-2nd.png);
+	background: url(/img/left-2nd.gif);
 } 
 
 .left-sidebar ul li a:hover {
 	text-decoration: underline;
-	background: url(/img/left-2nd.png);
+	background: url(/img/left-2nd.gif);
 } 
 
 #right {
@@ -256,7 +258,7 @@ body {
 .fivephoto {
 	width: 760px;
 	height: 440px;
-	position:relative;
+	position: relative;
 	margin: -10px -10px;
 	padding-bottom: 15px;
 }
@@ -264,7 +266,36 @@ body {
 .fivephoto img {
 	width: 760px;
 	height: 440px;
-	position:absolute;
+	position: absolute;
+}
+
+.nopadding {
+	margin: -10px;
+}
+
+/* --- Section coloring --- */
+.colorer {
+	margin: -10px; 
+	line-height: 0;
+}
+
+.colorer img { /*Показывает сразу ч/б изображения, виесто подгружаемых цветных*/
+	display: none;
+}
+
+.colorer div {
+	overflow: hidden;
+	height: 360px;
+}
+
+.colorer span {
+	display: block;
+	color: #FFF;
+	position: relative;
+	background: rgba(170, 170, 170, 0.5);
+	bottom: 90px;
+	padding: 20px 0 20px 30px;
+	font-size: 30px;
 }
 
 /* --- Events --- */
